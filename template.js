@@ -8,9 +8,13 @@ const licenseBadge = {
     CC: '[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)',
 }
 
+// const getBadge = (response) => {
+//     const licenseBadge.${(response.license)};
+//     console.log(l);
+// };
 const buildReadmeTemplate = (response) =>
 `
-licenseBadgeType
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
 
@@ -23,6 +27,8 @@ licenseBadgeType
     <a href="${(response.app_link)}">View Demo</a>
     </p>
 </p>
+
+<img src="${(response.app_preview)}" alt="project preview img" style="height: 250px; width: 300px;">
 
 <details open="open">
     <summary>Table of Contents</summary>

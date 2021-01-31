@@ -1,17 +1,19 @@
 
-licenseBadgeType
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
 
     <h3 align="center">Readme Generator</h3>
 
     <p align="center">
-    make the best readme file everytime!
+    readme generator
     <br />
     <br />
-    <a href="https://github.com/wdfhai/README-generator">View Demo</a>
+    <a href="">View Demo</a>
     </p>
 </p>
+
+<img src="" alt="project preview img" style="height: 250px; width: 300px;">
 
 <details open="open">
     <summary>Table of Contents</summary>
@@ -29,22 +31,22 @@ licenseBadgeType
 
 ### Description
 
-Use a command line application to generate a readme markdown file.
+
 
 ### Built With
 
 Following languages, frameworks and libraries were used in the development of this project:
 
-- JavaScript
-- NodeJS
+- 
+- 
 
 ### Installation
 
-You'll need NodeJS, NPM, and inquirer installed.
+
 
 ### Usage
 
-Follow the prompts, and have your repository, project and contact link ready.
+
 
 ### Contributing
 
@@ -62,9 +64,9 @@ This project is using the following license: MIT
 
 ### Contact
 
-- My Github name is wdfhai.
-- For any questions or comments, please reach out to me on Twitter at @wdfhai.
+- My Github name is a.
+- For any questions or comments, please reach out to me on LinkedIn at a.
 
 ### Summary
 
-Enjoy!
+aa
