@@ -3,14 +3,14 @@
     <h3 align="center">README Generator</h3>
     <br />
     <p align="center">
-    Great and quick README files, every time! 
+    Quality README, made easier!
     <br />
     <br />
-    <a href="https://wdfhai.github.io/README-generator">View Demo</a>
+    <a href="https://github.com/wdfhai/README-generator">View Demo</a>
     </p>
 </div>
 
-<img src="https://wdfhai.github.io/README-generator/images/preview.png" alt="project preview img" style="height: 250px; width: 300px;">
+<img src="https://github.com/wdfhai/README-generator/images/preview.png" alt="project preview img" style="height: 250px; width: 300px;">
 
 <details open="open">
     <summary>Table of Contents</summary>
@@ -28,7 +28,7 @@
 
 ### Description
 
-A command line application which takes relevant input from the user and generates a README markdown file.
+This application is designed to take input from the user and generate a readme markdown file. Infact, this README file has also been generated using this application.
 
 ### Built With
 
@@ -43,7 +43,7 @@ Yes, you'll need to have NodeJS, NPM and the Inquirer package installed.
 
 ### Usage
 
-Have your repo/deployed link, preview image link and contact details ready.
+Have your repo/deployed link, preview image link and your preferred contact details ready.
 
 ### Contributing
 
@@ -66,4 +66,4 @@ This project is using the following license: MIT
 
 ### Summary
 
-I hope you enjoy using this application. For any comments or questions, please contact me. Cheers!
+Thanks for checking out my application. I would love to hear your feedback. Cheers!

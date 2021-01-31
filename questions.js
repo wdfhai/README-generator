@@ -30,7 +30,7 @@ const questions = [
         name: 'app_desc',
     },{
         type:'input',
-        message: 'Q6. How should a user use your application? Include any special instructions you might have',
+        message: 'Q6. How should a user use your application? Include any special instructions you might have.',
         name: 'app_usage',
     },{
         type:'input',

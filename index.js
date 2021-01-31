@@ -26,9 +26,8 @@ async function main() {
     
         fs.writeFileSync('./readme.md', readme);
     
-        console.log('File was successfully written.');
-    
-        console.log('Did it work?');
+        console.log('File was successfully written. Enjoy your README file!');
+
     } catch (error) {
         console.log(error);
     }
