@@ -45,7 +45,7 @@ async function generateFile() {
         const licenseType = response.app_license;
         const licenseBadge = licenseBadges[licenseType];
 
-        const readme = buildReadmeTemplate(response);
+        const readme = buildReadmeTemplate(response, licenseBadge);
     
         fs.writeFileSync('./readme.md', readme);
     
