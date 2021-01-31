@@ -1,19 +1,16 @@
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-<p align="center">
-
-    <h3 align="center">Readme Generator</h3>
-
+<div align="center">
+    <h3 align="center">README Generator</h3>
+    <br />
     <p align="center">
-    readme generator
+    Great and quick README files, every time! 
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://wdfhai.github.io/README-generator">View Demo</a>
     </p>
-</p>
+</div>
 
-<img src="" alt="project preview img" style="height: 250px; width: 300px;">
+<img src="https://wdfhai.github.io/README-generator/images/preview.png" alt="project preview img" style="height: 250px; width: 300px;">
 
 <details open="open">
     <summary>Table of Contents</summary>
@@ -31,22 +28,22 @@
 
 ### Description
 
-
+A command line application which takes relevant input from the user and generates a README markdown file.
 
 ### Built With
 
 Following languages, frameworks and libraries were used in the development of this project:
 
-- 
-- 
+- HTML,CSS,JavaScript
+- NodeJS
 
 ### Installation
 
-
+Yes, you'll need to have NodeJS, NPM and the Inquirer package installed.
 
 ### Usage
 
-
+Have your repo/deployed link, preview image link and contact details ready.
 
 ### Contributing
 
@@ -64,9 +61,9 @@ This project is using the following license: MIT
 
 ### Contact
 
-- My Github name is a.
-- For any questions or comments, please reach out to me on LinkedIn at a.
+- My Github name is wdfhai.
+- For any questions or comments, please reach out to me on Email at wd.fhai@outlook.com.
 
 ### Summary
 
-aa
+I hope you enjoy using this application. For any comments or questions, please contact me. Cheers!

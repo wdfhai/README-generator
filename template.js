@@ -9,24 +9,25 @@ const licenseBadge = {
 }
 
 // const getBadge = (response) => {
-//     const licenseBadge.${(response.license)};
-//     console.log(l);
-// };
+//     const badge = `${(response.app_license)}`;
+//     const badgeT = licenseBadge.badge;
+//     console.log(badge);
+//     console.log(badgeT);
+// }
+// getBadge();
+
 const buildReadmeTemplate = (response) =>
 `
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-<p align="center">
-
+<div align="center">
     <h3 align="center">${(response.title)}</h3>
-
+    <br />
     <p align="center">
     ${(response.app_tagline)}
     <br />
     <br />
     <a href="${(response.app_link)}">View Demo</a>
     </p>
-</p>
+</div>
 
 <img src="${(response.app_preview)}" alt="project preview img" style="height: 250px; width: 300px;">
 
