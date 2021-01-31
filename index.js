@@ -22,10 +22,6 @@ async function main() {
     try {
         const response = await inquirer.prompt(questions);
 
-        // const licenseType = response.app_license;
-
-        // const licenseBadgeURL = (licenseBadge) => (licenseType, );
-
         const readme = buildReadmeTemplate(response);
     
         fs.writeFileSync('./readme.md', readme);

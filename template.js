@@ -14,13 +14,13 @@ licenseBadgeType
 
 <p align="center">
 
-    <h3 align="center">${(title)}</h3>
+    <h3 align="center">${(response.title)}</h3>
 
     <p align="center">
-    ${(app_tagline)}
+    ${(response.app_tagline)}
     <br />
     <br />
-    <a href="${(app_link)}">View Demo</a>
+    <a href="${(response.app_link)}">View Demo</a>
     </p>
 </p>
 
@@ -40,22 +40,22 @@ licenseBadgeType
 
 ### Description
 
-${(app_desc)}
+${(response.app_desc)}
 
 ### Built With
 
 Following languages, frameworks and libraries were used in the development of this project:
 
-- ${(app_lang)}
-- ${(app_frameworks)}
+- ${(response.app_lang)}
+- ${(response.app_frameworks)}
 
 ### Installation
 
-${(app_install)}
+${(response.app_install)}
 
 ### Usage
 
-${(app_usage)}
+${(response.app_usage)}
 
 ### Contributing
 
@@ -69,16 +69,16 @@ Contributions are what make the open source community such an amazing place to l
 
 ### License
 
-This project is using the following license: ${(app_license)}
+This project is using the following license: ${(response.app_license)}
 
 ### Contact
 
-- My Github name is ${(github_name)}.
-- For any questions or comments, please reach out to me on ${(contact)} at ${(contact_details)}.
+- My Github name is ${(response.github_name)}.
+- For any questions or comments, please reach out to me on ${(response.contact)} at ${(response.contact_details)}.
 
 ### Summary
 
-${(summary)}
+${(response.summary)}
 `
 
 module.exports = buildReadmeTemplate;
