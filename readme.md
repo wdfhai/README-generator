@@ -1,4 +1,3 @@
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <div align="center">
@@ -12,7 +11,7 @@
     </p>
 </div>
 
-<img src="https://github.com/wdfhai/README-generator/images/preview.png" alt="project preview img" style="height: 250px; width: 300px;">
+<img src="./images/preview.png" alt="project preview img" style="height: 250px; width: 300px;">
 
 <details open="open">
     <summary>Table of Contents</summary>
