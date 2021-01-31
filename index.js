@@ -18,7 +18,7 @@ const licenseBadge = {
 }
 
 
-async function main() {
+async function generateFile() {
     try {
         const response = await inquirer.prompt(questions);
 
@@ -33,7 +33,7 @@ async function main() {
     }
 }
 
-main();
+generateFile();
 
 
 
