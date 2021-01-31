@@ -1,0 +1,1 @@
+answersObj = {"app_ready":true,"repo_name":"","app_name":"","app_link":"","app_preview":"","app_license":"","app_desc":"","app_idea":"","app_lang":[],"app_libs":"","app_apis":"","app_feat":"","app_team":"","app_contact":"LinkedIn","app_contact_details":"","app_summary":""}
