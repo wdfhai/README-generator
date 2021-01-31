@@ -49,8 +49,6 @@ async function generateFile() {
     
         fs.writeFileSync('./readme.md', readme);
     
-        console.log(licenseType);
-        console.log(licenseBadge);
         console.log(goodbye);
 
     } catch (error) {
