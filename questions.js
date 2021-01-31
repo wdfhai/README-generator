@@ -5,10 +5,6 @@ const contactTypes = ['LinkedIn', 'Twitter', 'Discord', 'Email', 'Slack', 'Text'
 
 const questions = [
     {
-        type:'confirm',
-        message: 'Welcome. This app will generate a README file for your project. There are 13 questions in total. Ready?',
-        name: 'app_ready',
-    },{
         type:'input',
         message: 'Q1. What is the title of your project?',
         name: 'title',
