@@ -5,7 +5,7 @@
     <h3 align="center">README Generator</h3>
     <br />
     <p align="center">
-    Great READMEs, every time!
+    Great READMEs, made easy!
     <br />
     <br />
     <a href="https://github.com/wdfhai/README-generator/">View Demo</a>
@@ -30,22 +30,22 @@
 
 ### Description
 
-This application receives input from the user regarding their project, and then creates a README markdown file. In fact, this README was also generated with this application.
+This application is designed to take input from the user regarding their project and then generate a quality README markdown file with all the relevant information. In fact, this README was also generated through this application.
 
 ### Built With
 
 Following languages, frameworks and libraries were used in the development of this project:
 
 - HTML,CSS,JavaScript
-- JQuery
+- NodeJS
 
 ### Installation
 
-Yes, you'll need NodeJS, NPM, Inquirer and Chalk installed.
+Yes, you'll need NodeJS, NPM and NPM packages such as Inquirer and Chalk installed before running the application.
 
 ### Usage
 
-Have your project/repository link, image preview link and preferred contact details (including links if necessary) ready.
+Have your repo/project link, preview image link/path and your contact details ready. Once ready, type in node index.js from the correct directory to initialize the application.
 
 ### Contributing
 
@@ -63,9 +63,12 @@ This project is using the following license: MIT
 
 ### Contact
 
-- My Github name is wdfhai.
-- For any questions or comments, please reach out to me on Email at wd.fhai@outlook.com.
+You can reach me for any questions or comments at the following:
+
+- Look me up on Github,  where my username is <span><a href="https://github.com/wdfhai">wdfhai</a></span>.
+- Reach out to me through email at wd.fhai@outlook.com.
+- Find me on Twitter at https://twitter.com/wdfhai.
 
 ### Summary
 
-Thanks for checking out my project. I hope you enjoy using it. Cheers!
+Thanks for checking out my application. I hope you enjoy using it. Cheers!

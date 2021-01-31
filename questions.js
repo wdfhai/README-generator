@@ -1,7 +1,7 @@
 const langTypes = ['HTML', 'CSS', 'JavaScript', 'Java', 'Python', 'C or C++', 'R', 'other'];
 const frameworks = ['Bootstrap', 'Foundation', 'JQuery', 'NodeJS', 'others'];
 const licenseTypes = ['MIT', 'MPL_2', 'WTFPL', 'CC', 'ZLIB', 'UNLICENSE', 'APACHE_2', 'Other'];
-const contactTypes = ['LinkedIn', 'Twitter', 'Discord', 'Email', 'Slack', 'Text', 'other(mention in next answer)'];
+const contactTypes = ['LinkedIn', 'Twitter', 'Discord', 'Slack', 'Text', 'other(mention in next answer)'];
 
 const questions = [
     {
@@ -43,26 +43,30 @@ const questions = [
         choices: frameworks,
         name: 'app_frameworks',
     },{
-        type:'input',
-        message: 'Q10. Enter your GitHub username.',
-        name: 'github_name',
-    },{
         type:'list',
-        message: 'Q11. Select the license your project is being distributed under on GitHub',
+        message: 'Q10. Select the license your project is being distributed under on GitHub',
         choices: licenseTypes,
         name: 'app_license',
     },{
+        type:'input',
+        message: 'Q11. Enter your GitHub username.',
+        name: 'github_name',
+    },{
+        type:'input',
+        message: 'Q12. Enter your email address.',
+        name: 'email',
+    },{
         type:'list',
-        message: 'Q12.p1. Which platform should someone try to reach you at regarding any questions or comments?',
+        message: 'Q13.p1. Which platform should someone try to reach you at regarding any questions or comments?',
         choices: contactTypes,
         name: 'contact',
     },{
         type:'input',
-        message: 'Q12.p2. Enter your contact details for the platform above.',
+        message: 'Q13.p2. Enter your contact details for the platform above.',
         name: 'contact_details',
     },{
         type:'input',
-        message: 'Q13. Leave a concise message as a summary for your application.',
+        message: 'Q14. Leave a concise message as a summary for your application.',
         name: 'summary',  
     }
 ];

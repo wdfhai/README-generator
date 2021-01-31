@@ -65,8 +65,11 @@ This project is using the following license: ${(response.app_license)}
 
 ### Contact
 
-- My Github name is <span><a href="https://github.com/${(response.github_name)}">${(response.github_name)}</a></span>.
-- For any questions or comments, please reach out to me on ${(response.contact)} at ${(response.contact_details)}.
+You can reach me for any questions or comments at the following:
+
+- Look me up on Github,  where my username is <span><a href="https://github.com/${(response.github_name)}">${(response.github_name)}</a></span>.
+- Reach out to me through email at ${(response.email)}.
+- Find me on ${(response.contact)} at ${(response.contact_details)}.
 
 ### Summary
 
