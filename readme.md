@@ -16,7 +16,7 @@
 <details open="open">
     <summary>Table of Contents</summary>
     <ol>
-        <li><a href="#about-the-project">Description</a></li>
+        <li><a href="#description">Description</a></li>
         <li><a href="#built-with">Built With</a></li></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#usage">Usage</a></li>
