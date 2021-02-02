@@ -1,4 +1,3 @@
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <div align="center">
@@ -41,7 +40,7 @@ Following languages, frameworks and libraries were used in the development of th
 
 ### Installation
 
-Yes, you'll need NodeJS, NPM and NPM packages such as Inquirer and Chalk installed before running the application.
+Yes, you'll need NodeJS, NPM and NPM packages such as Inquirer, Chalk and node-emoji installed before running the application.
 
 ### Usage
 
@@ -65,7 +64,7 @@ This project is using the following license: MIT
 
 You can reach me for any questions or comments at the following:
 
-- Look me up on Github,  where my username is <span><a href="https://github.com/wdfhai">wdfhai</a></span>.
+- Look me up on Github, where my username is <span><a href="https://github.com/wdfhai">wdfhai</a></span>.
 - Reach out to me through email at wd.fhai@outlook.com.
 - Find me on Twitter at https://twitter.com/wdfhai.
 

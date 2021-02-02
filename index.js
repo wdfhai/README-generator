@@ -1,6 +1,7 @@
 const fs = require('fs');
 const inquirer = require ('inquirer');
 const chalk = require ('chalk');
+const emoji = require ('node-emoji');
 const questions = require ('./questions');
 const buildReadmeTemplate = require ('./template')
 
@@ -17,22 +18,22 @@ const licenseBadges = {
 const greeting = 
 `
 
-                            ${chalk.bold.magenta('Welcome to my README Generator!')}
+                        ${emoji.get('file_folder')}  ${chalk.bgMagenta('Welcome to my README Generator!')}  ${(emoji.get('file_folder'))}  
 
-        ${chalk.green('This application will generate a markdown file for your project using your responses.')}
+        ${chalk.cyan('This application will generate a markdown file for your project using your responses.')}
 
 `;
 const generationError = 
 `
 
-    ${chalk.red('Looks like there was an error creating your README file. Please address the error or report it, and restart the application')}
+${emoji.get('exclamation')} ${chalk.red('Looks like there was an error creating your README file. Please address the error or report it, and restart the application')}${emoji.get('exclamation')}
 
 `
 
 const goodbye = 
 `
 
-    ${chalk.blueBright('Thank you. Your README file was successfully written. Check it out. Cheers!')}
+${emoji.get('white_check_mark')} ${chalk.blueBright('Thank you. Your README file was successfully written. Check it out. Cheers!')} ${emoji.get('white_check_mark')}
 `;
 
 console.clear();
